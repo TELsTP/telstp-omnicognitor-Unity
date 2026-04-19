@@ -1,0 +1,15 @@
+# Heritage and Governance Sovereignty
+# This file enforces Pillar-specific review paths.
+
+# Global Architect and Sentinel
+*       @MohamedAyoub-TELsTP
+
+# Logic Layer (Noura)
+/src/services/mistral.ts @MohamedAyoub-TELsTP
+/src/services/omnicog.ts @MohamedAyoub-TELsTP
+
+# Creative Essence (Hayat)
+/src/components/ai/ @MohamedAyoub-TELsTP
+
+# Pillar Governance
+/src/pillars/ @MohamedAyoub-TELsTP
