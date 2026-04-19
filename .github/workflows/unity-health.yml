@@ -1,0 +1,31 @@
+name: OmniCognitor Unity Health
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  integrity-check:
+    name: Pillar Integrity & Blueprint Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sovereign Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node Runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Pillar Integrity Validation
+        run: |
+          chmod +x ./scripts/validate_pillars.sh
+          ./scripts/validate_pillars.sh
+
+      - name: Constitutional Compliance Check
+        run: |
+          if [ ! -f "LICENSE" ]; then echo "Digital Constitution (LICENSE) missing!"; exit 1; fi
+          if [ ! -f ".github/CITIZENSHIP.md" ]; then echo "Citizenship Declaration missing!"; exit 1; fi
+          echo "Compliance verified."
