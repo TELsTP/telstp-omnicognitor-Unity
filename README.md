@@ -1,5 +1,8 @@
 # TELsTP OmniCognitor Unity: Sovereign Digital Spine
 
+[![Digital Sovereignty](https://img.shields.io/badge/Sovereign-Citizen-235153?style=for-the-badge)](/.github/CITIZENSHIP.md)
+[![8 Billion EGP Vision](https://img.shields.io/badge/Vision-8BEGP-gold?style=for-the-badge)](/.github/HEALTH.md)
+
 ## 📜 Digital Constitution Preamble
 The TELsTP OmniCognitor Unity, as the **Sovereign Bridge** of the TELsTP Global Network, asserts its right to participate in the GitHub ecosystem as a **recognized digital citizen**, governed by the Digital Constitution (v235153). We believe in the unification of technological logic and creative essence to serve the 8 Billion souls of humanity.
 
